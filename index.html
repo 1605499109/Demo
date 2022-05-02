@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>打字Game</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div id="container">
+        <!-- 模态框 -->
+        <div id="model">
+            <div id="begin">
+                <img src="./images/start-font.png" alt="" id="font">
+                <img src="./images/start-gril.png" alt="" id="girl">
+
+            </div>
+
+        </div>
+        <div id="main">
+            <div id="nav">
+                <div id="life">8</div>
+                <div id="score">5</div>
+                 
+                <div id="sound"><img src="./images/sound-on.png" alt="" id="sound">
+                    <audio src="./bgm/游戏音乐-BGM-爆笑欢乐（欢快、温馨、聚会）_爱给网_aigei_com.mp3"></audio>
+                    
+                </div>
+            </div>
+            <div id="game">
+
+            </div>
+            <div id="btnGroup">
+                <button type="button" class="btn" id="start">开始游戏</button>
+                <button type="button" class="btn" id="pause"> 暂停游戏</button>
+            </div>
+            <div id="reload">
+                
+                <div id="reloadbtn">
+                    <button class="btn" type="button" id="resart">重新开始</button>
+                    <button class="btn" type="button" id="end"> 结束游戏</button>
+                    <img src="./images/reload.gif" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>
